@@ -1,0 +1,12 @@
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.vbprojResolveAssemblyReference.cache
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything_Minecraft_Server_Tool.Form1.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything_Minecraft_Server_Tool.Form2.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything_Minecraft_Server_Tool.Resources.resources
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.vbproj.GenerateResource.Cache
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.xml
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\bin\Debug\Everything Minecraft Server Tool.exe.config
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\bin\Debug\Everything Minecraft Server Tool.exe
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\bin\Debug\Everything Minecraft Server Tool.pdb
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\bin\Debug\Everything Minecraft Server Tool.xml
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.exe
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.pdb
