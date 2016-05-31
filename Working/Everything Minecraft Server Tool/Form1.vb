@@ -177,7 +177,7 @@
             sw.Write("level-name=" + worldname + Environment.NewLine)
             sw.Write("enable-query=false" + Environment.NewLine)
             sw.Write("allow-flight=" + flight + Environment.NewLine)
-            sw.Write("announce-player-achievements" + achievments + Environment.NewLine)
+            sw.Write("announce-player-achievements=" + achievments + Environment.NewLine)
             sw.Write("server-port=" + port + Environment.NewLine)
             sw.Write("max-world-size=" + worldsize + Environment.NewLine)
             sw.Write("level-type=DEFAULT" + Environment.NewLine)
