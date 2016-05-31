@@ -86,6 +86,7 @@ Partial Class Form1
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox22.SuspendLayout()
@@ -116,12 +117,13 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button5)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Location = New System.Drawing.Point(3, 1)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(84, 95)
+        Me.GroupBox1.Size = New System.Drawing.Size(84, 119)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "EULA"
@@ -129,22 +131,22 @@ Partial Class Form1
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Checked = True
         Me.RadioButton2.Location = New System.Drawing.Point(9, 42)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(67, 17)
         Me.RadioButton2.TabIndex = 2
+        Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Disagree"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Checked = True
         Me.RadioButton1.Location = New System.Drawing.Point(9, 19)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(53, 17)
         Me.RadioButton1.TabIndex = 1
-        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Agree"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
@@ -807,6 +809,15 @@ Partial Class Form1
         Me.RadioButton3.Text = "2K"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(9, 89)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(67, 23)
+        Me.Button5.TabIndex = 3
+        Me.Button5.Text = "View"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -927,4 +938,5 @@ Partial Class Form1
     Friend WithEvents RadioButton27 As RadioButton
     Friend WithEvents GroupBox17 As GroupBox
     Friend WithEvents NumericUpDown5 As NumericUpDown
+    Friend WithEvents Button5 As Button
 End Class

@@ -10,13 +10,7 @@
             ProgressBar1.Value = 0
         End If
         Label1.Text = "Checking Settings"
-        If My.Settings.TOS = 0 Then
-            Timer1.Enabled = False
-            tosagree.Show()
-        Else
-            If My.Settings.TOS = 1 Then
-                Form1.Show()
-            End If
-        End If
+        Timer1.Enabled = False
+        Form1.Show()
     End Sub
 End Class
