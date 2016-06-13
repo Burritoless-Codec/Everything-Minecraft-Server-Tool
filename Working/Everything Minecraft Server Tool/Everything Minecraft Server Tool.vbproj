@@ -95,6 +95,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="updatem.Designer.vb">
+      <DependentUpon>updatem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updatem.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -108,6 +114,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatem.resx">
+      <DependentUpon>updatem.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

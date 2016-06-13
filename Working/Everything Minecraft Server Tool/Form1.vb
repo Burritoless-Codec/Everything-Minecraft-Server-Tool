@@ -211,4 +211,32 @@
         End If
 
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        TextBox1.Text = "world"
+        TextBox2.Text = "25565"
+        TextBox4.Text = "A Minecraft Server Configured With EMST"
+        TextBox3.Text = ""
+        TextBox5.Text = "60000"
+        RadioButton9.Checked = True
+        RadioButton29.Checked = True
+        RadioButton31.Checked = True
+        RadioButton27.Checked = True
+        NumericUpDown5.Value = 4
+        NumericUpDown3.Value = 0
+        NumericUpDown4.Value = 1
+        NumericUpDown2.Value = 20
+        RadioButton13.Checked = True
+        RadioButton11.Checked = True
+        RadioButton14.Checked = True
+        RadioButton22.Checked = True
+        RadioButton17.Checked = True
+        RadioButton18.Checked = True
+        RadioButton25.Checked = True
+        RadioButton21.Checked = True
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        updatem.Show()
+    End Sub
 End Class

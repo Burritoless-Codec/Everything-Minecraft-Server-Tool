@@ -10,3 +10,4 @@ C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Se
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\bin\Debug\Everything Minecraft Server Tool.xml
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.exe
 C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything Minecraft Server Tool.pdb
+C:\Users\jblac_000\Documents\Visual Studio 2015\Projects\Everything Minecraft Server Tool\Working\Everything Minecraft Server Tool\obj\Debug\Everything_Minecraft_Server_Tool.updatem.resources

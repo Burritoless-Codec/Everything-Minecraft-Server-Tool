@@ -24,12 +24,12 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox22 = New System.Windows.Forms.GroupBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -86,7 +86,8 @@ Partial Class Form1
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox22.SuspendLayout()
@@ -128,6 +129,15 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "EULA"
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(9, 89)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(67, 23)
+        Me.Button5.TabIndex = 3
+        Me.Button5.Text = "View"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
@@ -162,7 +172,6 @@ Partial Class Form1
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Button4)
-        Me.GroupBox2.Controls.Add(Me.Button3)
         Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.GroupBox22)
         Me.GroupBox2.Controls.Add(Me.GroupBox21)
@@ -193,27 +202,18 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(375, 304)
+        Me.Button4.Location = New System.Drawing.Point(333, 298)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(80, 47)
+        Me.Button4.Size = New System.Drawing.Size(117, 52)
         Me.Button4.TabIndex = 43
         Me.Button4.Text = "Clear Settings"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(205, 304)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(80, 47)
-        Me.Button3.TabIndex = 42
-        Me.Button3.Text = "Open Settings"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(291, 303)
+        Me.Button2.Location = New System.Drawing.Point(208, 300)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(80, 48)
+        Me.Button2.Size = New System.Drawing.Size(113, 50)
         Me.Button2.TabIndex = 41
         Me.Button2.Text = "Save Settings"
         Me.Button2.UseVisualStyleBackColor = True
@@ -783,9 +783,9 @@ Partial Class Form1
         Me.RadioButton8.AutoSize = True
         Me.RadioButton8.Location = New System.Drawing.Point(6, 42)
         Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(66, 17)
+        Me.RadioButton8.Size = New System.Drawing.Size(60, 17)
         Me.RadioButton8.TabIndex = 22
-        Me.RadioButton8.Text = "Custome"
+        Me.RadioButton8.Text = "Custom"
         Me.RadioButton8.UseVisualStyleBackColor = True
         '
         'RadioButton5
@@ -809,24 +809,39 @@ Partial Class Form1
         Me.RadioButton3.Text = "2K"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Button3
         '
-        Me.Button5.Location = New System.Drawing.Point(9, 89)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(67, 23)
-        Me.Button5.TabIndex = 3
-        Me.Button5.Text = "View"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button3.Location = New System.Drawing.Point(12, 329)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(67, 23)
+        Me.Button3.TabIndex = 4
+        Me.Button3.Text = "Update"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(12, 301)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(67, 23)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "About"
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(557, 363)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "EMST"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -921,7 +936,6 @@ Partial Class Form1
     Friend WithEvents RadioButton18 As RadioButton
     Friend WithEvents RadioButton19 As RadioButton
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents GroupBox22 As GroupBox
     Friend WithEvents TextBox2 As TextBox
@@ -939,4 +953,6 @@ Partial Class Form1
     Friend WithEvents GroupBox17 As GroupBox
     Friend WithEvents NumericUpDown5 As NumericUpDown
     Friend WithEvents Button5 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button6 As Button
 End Class
